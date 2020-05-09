@@ -11,3 +11,7 @@ nav {
     height: 40px;
     background-color: cornflowerblue;
 }
+section{
+    display: flex;
+    font-size: x-large;
+}
