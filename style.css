@@ -8,9 +8,14 @@ header{
     text-align: center;
     height: 100px;
 }
-nav {
+.container {
+    display: flex;
     height: 40px;
     background-color: cornflowerblue;
+}
+.row{
+    flex-direction: row;
+    list-style: none;
 }
 section {
     padding: 10px;
