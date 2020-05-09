@@ -17,6 +17,10 @@ header{
     flex-direction: row;
     list-style: none;
 }
+li{
+    padding: 5px;
+    border:1px solid darkkhaki;
+}
 section {
     padding: 10px;
 }
@@ -26,5 +30,8 @@ section {
     font-size: x-large;
 }
 .col1{
-    flex: 0 0 50%;
+    flex: 0 0 33.330%;
+}
+img{
+    width: 50%;
 }
