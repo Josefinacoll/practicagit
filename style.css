@@ -21,6 +21,9 @@ li{
     padding: 5px;
     border:1px solid darkkhaki;
 }
+li:hover{
+    background-color: darkorange;
+}
 section {
     padding: 10px;
 }
@@ -40,4 +43,8 @@ img{
 }
 button{
    margin: 50px;
+}
+footer{
+    text-align: center;
+    background-color: darkolivegreen;
 }
