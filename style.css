@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header{
     background-color: cadetblue;
     text-align: center;
     height: 100px;
+    padding: 29px;
 }
 .container {
     display: flex;
