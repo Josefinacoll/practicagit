@@ -48,3 +48,17 @@ footer{
     text-align: center;
     background-color: darkolivegreen;
 }
+.menu{
+    display: flex;
+    justify-content: flex;
+}
+.columna {display: none;}
+@media (max-width:800px){
+    .container{
+        display: none;
+    }
+    .columna {
+        display: flex;
+        flex-direction: column;
+    } 
+}
