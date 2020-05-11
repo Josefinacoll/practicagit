@@ -11,7 +11,7 @@ header{
 .container {
     display: flex;
     height: 40px;
-    background-color: cornflowerblue;
+
 }
 .row{
     flex-direction: row;
@@ -48,10 +48,11 @@ footer{
     text-align: center;
     background-color: darkolivegreen;
 }
-.menu{
-    display: flex;
-    justify-content: flex;
+
+nav{
+    background-color: cornflowerblue;
 }
+
 .columna {display: none;}
 @media (max-width:800px){
     .container{
@@ -61,4 +62,22 @@ footer{
         display: flex;
         flex-direction: column;
     } 
+    .menu{
+        display: flex;
+        justify-content: flex;
+    }
+     .menu li:hover >ul{
+         display: block;
+     }
+     .menu >li ul >li{
+        padding: 10px;
+        position: relative;
+        font-size: 14px;
+    }
+    .menu >li ul{
+        position: absolute;
+        display: none;
+        background-color: rgb(58, 72, 110);
+        margin-top: 5px;
+    }
 }
